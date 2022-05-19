@@ -1,4 +1,10 @@
-<div class="container">
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const Userlogin = () => {
+  return (
+    <div>
+        <div class="container">
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <h1>User Login</h1>
@@ -26,3 +32,9 @@
         </div>
     </div>
 </div>
+
+    </div>
+  )
+}
+
+export default Userlogin
